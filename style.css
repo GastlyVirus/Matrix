@@ -1,0 +1,29 @@
+html {
+    background: black;
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+canvas {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/*----------------------------Celular---------------------------- */
+@media screen and (max-width: 530px) {
+
+}
+
+
+/*----------------------------Tablets----------------------------*/
+@media screen and (min-width: 531px) and (max-width: 768px) {
+
+}
