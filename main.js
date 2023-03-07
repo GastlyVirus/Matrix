@@ -13,25 +13,29 @@ canvas.height = window.innerHeight;
 // Numeros, letras y simbolos que utilizare en el efecto MATRIX
 const japones = 'アァカサタナハマヤャラワガザダバパイィキシチニヒミリヰギジヂビピウゥクスツヌフムユュルグズブヅプエェケセテネヘメレヱゲゼデベペオォコソトノホモヨョロヲゴゾドボポヴッン';
 const abecedario = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+const simbolos = '/*-+.;:_-{}´ç`[]?¿¡!ºª@·#$&¬()<>'
 const numeros = '0123456789';
-const combinacionLetras = japones + abecedario + numeros;
+const combinacionLetras =  simbolos + japones + numeros + abecedario;
 
 // Creo variable para el tamaño de la fuente y tambien creo una variable que tiene el numero de columnas en base al ancho del elemento canvas dividido por el tamaño de la fuente
-const fontSize = 20;
+const fontSize = 15;
 const columnas = canvas.width/fontSize;
 
-
+// La siguiente sentencia "FOR" comienza mediante la declaración de la variable "X" y se inicializa a 0. Comprueba que "X" es menor que "COLUMNAS", realiza las dos sentencias con éxito e incrementa "X" en 1 después de cada pase del bucle.
 const lluvia = [];
 for( let x = 0; x < columnas; x++ ) {
 	lluvia[x] = 1;
 }
 
 
+//--------------------------------------------------------------------------------------------------------------------
+
+
 const efectoMatrix = () => {
-	contextCanvas.fillStyle = 'rgba(0, 0, 0, 0.05)';
+	contextCanvas.fillStyle = 'rgba(0, 0, 0, 0.07)';
 	contextCanvas.fillRect(0, 0, canvas.width, canvas.height);
 	
-	contextCanvas.fillStyle = 'rgb(0, 247, 255)';
+	contextCanvas.fillStyle = 'rgb(0, 255, 255)';
 	contextCanvas.font = fontSize + 'px monospace';
 
 	for(let i = 0; i < lluvia.length; i++)
