@@ -39,7 +39,7 @@ for( let x = 0; x < columnas; x++ ) {
 // FUNCION MATRIX - Creo una constante que es igual a la funcion para realizar el efecto matrix
 const efectoMatrix = () => {
 	// La CanvasRenderingContext2D.fillStyle propiedad de la API Canvas 2D especifica el color, el degradado o el patrón para usar dentro de las formas. El estilo predeterminado es #000 (negro).
-	contextCanvas.fillStyle = 'rgba(0, 0, 0, 0.07)';
+	contextCanvas.fillStyle = 'rgba(0, 0, 0, 0.05)';
 	// El método CanvasRenderingContext2D.fillRect() de la API Canvas 2D dibuja un rectángulo relleno en la posición ( x, y ). El tamaño del rectángulo se determina por width (anchura) y height (altura). El estilo de relleno se determina por el atributo fillStyle.
 	contextCanvas.fillRect(0, 0, canvas.width, canvas.height);
 	

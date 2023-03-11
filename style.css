@@ -1,5 +1,5 @@
 html {
-  background: rgb(0, 0, 0);
+  /* background: rgb(0, 0, 0); */
   height: 100%;
   overflow: hidden;
 }
@@ -19,7 +19,7 @@ body {
   border-radius: 20px;
   font-size: 30px;
   background-color: rgba(0, 0, 0, 0.8);
-  color: #000000;
+  color: white;
   cursor: pointer;
   animation: efectoBoton 2s ease-in-out infinite alternate;
 }
