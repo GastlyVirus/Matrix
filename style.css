@@ -14,9 +14,10 @@ body {
   font-family: "Matrix";
   font-weight: lighter;
   position: absolute;
-  top: 15%;
-  left: calc(28%);
-  font-size: 300px;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 170px;
   color: white;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -41,8 +42,7 @@ body {
 /*----------------------------Celular---------------------------- */
 @media screen and (max-width: 530px) {
   .titulo {
-    top: 35%;
-    left: calc(25%);
+    top: 40%;
     font-size: 100px;
     animation: efectoTitulo 1s ease-in-out infinite alternate;
   }
@@ -51,9 +51,8 @@ body {
 /*----------------------------Tablets----------------------------*/
 @media screen and (min-width: 531px) and (max-width: 768px) {
   .titulo {
-    top: 25%;
-    left: calc(14%);
-    font-size: 200px;
+    top: 40%;
+    font-size: 120px;
     animation: efectoTitulo 1.5s ease-in-out infinite alternate;
   }
 }
