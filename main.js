@@ -1,9 +1,3 @@
-// Constante contenedora del boton para realizar el light mode
-const boton = document.getElementsByClassName('boton');
-// Agrego un "addEventListener" para poder saber cada vez que reciba un click, asi poder activar la funcion "activeMode"
-// boton.addEventListener('click', avtiveMode);
-
-
 // Traigo el elemento CANVAS mediante una variable
 const canvas = document.getElementById('canvas');
 
@@ -18,10 +12,9 @@ canvas.height = window.innerHeight;
 
 // Numeros, letras y simbolos que utilizare en el efecto MATRIX
 const japones = 'アァカサタナハマヤャラワガザダバパイィキシチニヒミリヰギジヂビピウゥクスツヌフムユュルグズブヅプエェケセテネヘメレヱゲゼデベペオォコソトノホモヨョロヲゴゾドボポヴッン';
-const abecedario = 'abcdefghijklmnñopqrstuvwxyz';
-const simbolos = '*-+.;:_-{}´ç`[]?¿¡!ºª@·#$&¬()<>'
+const abecedario = 'ABCDEFGHIJKLMNÑOPQRSTUVWXYZ';
 const numeros = '0123456789';
-const combinacionLetras = simbolos + japones + numeros + abecedario;
+const combinacionLetras = japones + numeros + abecedario;
 
 // Creo variable para el tamaño de la fuente y tambien creo una variable que tiene el numero de columnas en base al ancho del elemento canvas dividido por el tamaño de la fuente
 const fontSize = 20;
