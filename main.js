@@ -21,7 +21,7 @@ const numeros = '0123456789';
 const combinacionLetras = japones + numeros + abecedario;
 
 // Creo variable para el tamaño de la fuente y tambien creo una variable que tiene el numero de columnas en base al ancho del elemento canvas dividido por el tamaño de la fuente
-const fontSize = 20;
+const fontSize = 15;
 const columnas = canvas.width/fontSize;
 
 // La siguiente sentencia "FOR" comienza mediante la declaración de la variable "X" y se inicializa a 0. Comprueba que "X" es menor que "COLUMNAS", realiza las dos sentencias con éxito e incrementa "X" en 1 después de cada pase del bucle.
