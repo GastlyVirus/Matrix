@@ -43,7 +43,7 @@ body {
 @media screen and (max-width: 530px) {
   .titulo {
     top: 40%;
-    font-size: 80px;
+    font-size: 60px;
     animation: efectoTitulo 1s ease-in-out infinite alternate;
   }
 }
