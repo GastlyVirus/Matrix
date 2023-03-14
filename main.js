@@ -7,7 +7,7 @@ const contextCanvas = canvas.getContext('2d');
 // WindowLa propiedad de solo lectura innerWidthdevuelve el ancho interior de la ventana en píxeles. Esto incluye el ancho de la barra de desplazamiento vertical, si está presente. Más precisamente, innerWidthdevuelve el ancho de la ventana gráfica de diseño de la ventana . La altura interior de la ventana, la altura de la ventana gráfica de diseño, se puede obtener de la innerHeightpropiedad.
 canvas.width = window.innerWidth;
 console.log(canvas.width)
-// innerHeightLa propiedad de solo lectura de la Windowinterfaz devuelve la altura interior de la ventana en píxeles, incluida la altura de la barra de desplazamiento horizontal, si está presente. El valor de innerHeightse toma de la altura de la ventana gráfica de diseño de la ventana . El ancho se puede obtener usando la innerWidthpropiedad.
+// innerHeightLa propiedad de solo lectura de la Windowinterfaz devuelve la altura interior de la ventana en píxeles, incluida la altura de la barra de desplazamiento horizontal, si está presente. El valor de innerHeightse toma de la altura de la ventana gráfica de diseño de la ventana. El ancho se puede obtener usando la innerWidthpropiedad.
 canvas.height = window.innerHeight;
 
 // Numeros, letras y simbolos que utilizare en el efecto MATRIX
