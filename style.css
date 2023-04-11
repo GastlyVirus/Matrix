@@ -23,7 +23,7 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  animation: efectoTitulo 2s ease-in-out infinite alternate;
+  animation: efectoTitulo 1.5s ease-in-out infinite alternate;
 }
 
 @keyframes efectoTitulo {

@@ -59,6 +59,4 @@ const efectoMatrix = () => {
 
 // Usa "setInterval()" para hacer que una función se repita con un tiempo de retraso entre cada ejecución. Una vez más, se pasan dos parámetros a "setInterval()": la función que quieres llamar y el tiempo en milisegundos a retrasar cada ejecución de la función. "setInterval()" continuará ejecutándose hasta que sea borrada.
 setInterval(efectoMatrix, 50);
-
-
 //--------------------------------------------------------------------------------------------------------------------
